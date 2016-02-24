@@ -18,10 +18,7 @@ public class Main {
   public static void main(String[] args) {
 
 
-get("/hello/:name", (request, response) -> {
-    return "YAAAAAA: " + request.params(":name");
-});
-
+get("/hello", (req, res) -> "yiaaaaa");
 
   }
 
