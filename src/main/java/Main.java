@@ -19,7 +19,7 @@ public class Main {
 
 
 get("/hello/:name", (request, response) -> {
-    return "Hello: " + request.params(":name");
+    return "YAAAAAA: " + request.params(":name");
 });
 
 
